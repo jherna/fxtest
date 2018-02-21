@@ -32,7 +32,7 @@ public class Pilota {
 
 
     public void update(double time) {
-       // System.out.println(posX + "," + posY);
+        System.out.println(posX + "," + posY);
         if(dirX == 1) {
             posX += velX*time;
             if(posX>=400-width) dirX = (-1)*dirX;
